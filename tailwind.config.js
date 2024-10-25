@@ -6,12 +6,13 @@ export default {
   ],
   theme: {
     colors: {
-      'preto': '#040F16',
-      'azul-escuro': '#6439FF',
-      'azul-claro': '#4F75FF',
-      'verde-agua': '#00CCDD',
-      'cinza': '#7CF5FF',
-      'branco': '#FFE1FF',
+      'black': '#040F16',
+      'dark-blue': '#6439FF',
+      'light-blue': '#4F75FF',
+      'light-green': '#00CCDD',
+      'grey': '#7CF5FF',
+      'white': '#ffffff',
+      'white2': '#FFE1FF',
     },
   },
   fontFamily: {
