@@ -2,6 +2,7 @@ import { Experiences } from "./Components/Experience/Experience";
 import { Header } from "./Components/Header/Header"
 import { Intro } from "./Components/Intro/Intro"
 import { Tecnhologies } from "./Components/Technologies/Tecnhnologies"
+import { ReactTyped } from "react-typed";
 
 import { Github, Instagram, Paperclip } from "lucide-react";
 
@@ -16,7 +17,7 @@ export default function App() {
         <div className="justify-center text-center lg:text-left flex-col lg:w-3/5 mb-10">
           <div className="flex flex-col gap-1">
             <h2 className="text-2xl md:text-3xl lg:text-4xl">Olá, eu sou</h2>
-            <h1 className="text-4xl md:text-4xl lg:text-6xl ">Luiz Gustavo</h1>
+            <h1 className="text-4xl md:text-4xl lg:text-6xl "><ReactTyped strings={["Luiz Gustavo"]} typeSpeed={200} backSpeed={30} loop /></h1>
             <h3 className="text-xl md:text-1xl lg:text-1xl ">Desenvolvedor Front-End</h3>
           </div>
           <div className="pt-3 flex justify-center lg:justify-start row gap-2">
