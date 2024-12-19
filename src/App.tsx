@@ -13,7 +13,7 @@ export default function App() {
         <Header />
       </div>
 
-      <div className="h-[60vh] md:h-[40vh] lg:h-[50vh] xl-[80vh] items-center flex justify-center flex-col w-full lg:flex-row lg:justify-between px-5 lg:px-32">
+      <div className="h-[60vh] md:h-[40vh] lg:h-[100vh] xl-[80vh] items-center flex justify-center flex-col w-full lg:flex-row lg:justify-between px-5 lg:px-32">
         <div className="justify-center text-center lg:text-left flex-col lg:w-3/5 mb-10">
           <div className="flex flex-col gap-1">
             <h2 className="text-2xl md:text-3xl lg:text-4xl">Olá, eu sou</h2>
