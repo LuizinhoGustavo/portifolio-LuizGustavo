@@ -42,10 +42,10 @@ export default function App() {
 
       <Experiences />
 
-      <div className="w-100 h-44 flex bg-black text-white">
+      <footer className="w-100 h-44 mt-52 flex bg-black text-white">
         <span className="mx-auto my-auto text-3xl">Luiz Gustavo Silva</span>
-      </div>
-    </div>
+      </footer>
+    </div >
   )
 }
 

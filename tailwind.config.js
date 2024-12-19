@@ -13,6 +13,7 @@ export default {
       'grey': '#7CF5FF',
       'white': '#ffffff',
       'white2': '#FFE1FF',
+      'grey2': '#D0D0D0'
     },
   },
   fontFamily: {
