@@ -9,10 +9,6 @@ import { Github, Instagram, Paperclip } from "lucide-react";
 export default function App() {
   return (
     <div>
-      <div className="w-100">
-        <Header />
-      </div>
-
       <div className="h-[60vh] md:h-[40vh] lg:h-[100vh] xl-[80vh] items-center flex justify-center flex-col w-full lg:flex-row lg:justify-between px-5 lg:px-32">
         <div className="justify-center text-center lg:text-left flex-col lg:w-3/5 mb-10">
           <div className="flex flex-col gap-1">

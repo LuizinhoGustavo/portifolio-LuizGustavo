@@ -11,7 +11,7 @@ import { Certificates } from './routes/Certificates.tsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Home",
     element: <App />,
   },
   {
