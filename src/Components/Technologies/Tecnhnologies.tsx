@@ -27,7 +27,7 @@ export const Tecnhologies = () => {
             {/* caso o dispositivo seja menor que 1024px, ent */}
             <div className="block lg:hidden px-5 lg:px-32 mt-28">
 
-                <Swiper className=""
+                <Swiper
                     spaceBetween={20}
                     slidesPerView={2}
                     navigation
