@@ -1,6 +1,6 @@
 import { TechIcons } from "./TechIcons";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+import "swiper/swiper-bundle.css";
 
 export const Tecnhologies = () => {
     const Icons = [
@@ -30,7 +30,6 @@ export const Tecnhologies = () => {
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={2}
-                    navigation
                     breakpoints={{
                         640: {
                             slidesPerView: 2,
