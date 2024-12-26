@@ -1,4 +1,4 @@
-import { FileJson2, FolderCode, House, User } from 'lucide-react'
+import { FileJson2, FolderCode, House } from 'lucide-react'
 
 export function Header() {
 
