@@ -21,11 +21,11 @@ export const Tecnhologies = () => {
     ];
 
     return (
-        <div className="lg:h-[60vh]">
-            <h3 className="text-center md:px-32 md:pb-10 text-3xl">Tecnologias e Conhecimentos</h3>
+        <div className="lg:h-[60vh] mt-10">
+            <h3 className="text-center mt-32 lg:mt-0 md:px-32 md:pb-10 text-3xl">Tecnologias e Conhecimentos</h3>
 
             {/* caso o dispositivo seja menor que 1024px, ent */}
-            <div className="block lg:hidden px-5 lg:px-32 mt-28">
+            <div className="block lg:hidden px-5 lg:px-32 mt-10 lg:mt-28">
 
                 <Swiper
                     spaceBetween={20}
