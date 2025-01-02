@@ -55,7 +55,7 @@ export const Tecnhologies = () => {
 
             <div className="hidden lg:flex flex-wrap justify-center mx-auto w-full">
 
-                <div className="flex gap-5 flex-wrap justify-around mx-auto w-[70%]">
+                <div className="flex gap-5 flex-wrap justify-around mx-auto max-w-[1240px]">
                     {Icons.map((image, index) => (
                         <TechIcons key={index} image={image} />
                     ))}

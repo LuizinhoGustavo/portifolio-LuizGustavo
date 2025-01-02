@@ -2,7 +2,7 @@ import { MoveLeft, MoveRight } from "lucide-react";
 
 export function Experiences() {
     return (
-        <div className="mx-3 md:mx-10 lg:mx-30 xl:px-52 my-24 flex justify-center flex-col sm:flex-row gap-5 lg:m-16">
+        <div className="mx-3 md:mx-10 lg:mx-30 xl:px-52 my-24 flex justify-center flex-col sm:flex-row gap-5 lg:mt-52">
             <div className="bg-dark-blue w-full sm:w-1/2 mb-5 rounded-3xl sm:rounded-l-3xl p-5 pb-3 flex flex-col justify-between">
                 <div className="flex-grow">
                     <h1 className="text-4xl">Projetos, Trabalhos e <br /> Projeções futuras </h1>
@@ -32,7 +32,7 @@ export function Experiences() {
                         Além disso falo um pouco sobre experiências e outros projetos na qual fiz parte.
                     </p>
 
-                    <h1 className="text-4xl ml-auto ">Certificados</h1>
+                    <h1 className="text-4xl ml-auto">Certificados</h1>
                 </div>
             </div>
         </div>

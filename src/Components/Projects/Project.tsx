@@ -14,8 +14,8 @@ export function Project(props: Props) {
 
     return (
         <div className="bg-white border-2 mb-10 mx-2 md:mx-auto w-100 flex flex-col md:flex-row justify-between gap-3 p-3 md:w-2/3 rounded-xl">
-            <div className="bg-dark-blue h-48 md:h-[100%] md:w-1/2 border-2">
-                <img src={imageProj} alt="RandomGutenbergBook Image" />
+            <div className="h-48 md:h-[100%] md:w-1/2 border-2">
+                <img src={imageProj} alt="Imagem do Projeto" className="size-full" />
             </div>
             <div className="md:w-1/2 p-3">
                 <div className="flex flex-row gap-3 align-middle justify-center pb-3"><CodeXml size={30} className="my-auto" /> <h3 className="text-3xl">{title}</h3></div>

@@ -14,12 +14,7 @@ export function Certificates() {
             <div className="flex flex-col lg:flex-row gap-10 lg:gap-36 justify-center flex-wrap">
                 <Certificate image={reactCertificate} title={"Curso de React - Ada Tech"} description={"Certificação em React para aplicações web, um curso completo com aplicações reais e ensinamentos em Typescript e Javascript, além de diversas tecnologias e boas práticas que podem ser usadas no ambiente de desenvolvimento."} />
 
-
-
             </div>
-
-
-
         </div>
     )
 }

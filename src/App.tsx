@@ -3,6 +3,7 @@ import { Header } from "./Components/Header/Header"
 import { Intro } from "./Components/Intro/Intro"
 import { Tecnhologies } from "./Components/Technologies/Tecnhnologies"
 import { ReactTyped } from "react-typed";
+import Curriculo from './assests/CurriculoLGTec.pdf'
 
 import { Github, Instagram, Paperclip } from "lucide-react";
 
@@ -13,7 +14,7 @@ export default function App() {
 
       <Header />
 
-      <div className="h-[60vh] md:h-[40vh] lg:h-[100vh] xl-[80vh] items-center flex justify-center flex-col w-full lg:flex-row lg:justify-between px-5 lg:px-32">
+      <div className="h-[60vh] md:h-[40vh] lg:h-[100vh] xl:h-[80vh] items-center flex justify-center flex-col w-full lg:flex-row lg:justify-between px-5 lg:px-32">
         <div className="justify-center text-center lg:text-left flex-col lg:w-3/5 mb-10">
           <div className="flex flex-col gap-1">
             <h2 className="text-2xl md:text-3xl lg:text-4xl">Olá, eu sou</h2>
@@ -27,9 +28,9 @@ export default function App() {
             <a href="https://www.instagram.com/_silva.guuh/" target="_blank">
               <Instagram size={40} strokeWidth={1.5} className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" />
             </a>
-            <a href="">
+            <a href={Curriculo} target="_blank">
               <Paperclip size={40} strokeWidth={1.5} className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" />
-            </a> {/*COLOCAR O ARQUIVO DO CURRÍCULO AQUI DEPOIS*/}
+            </a>
           </div>
         </div>
 
@@ -48,6 +49,3 @@ export default function App() {
     </div >
   )
 }
-
-
-
